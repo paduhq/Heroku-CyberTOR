@@ -13,9 +13,9 @@ function footer() {
         <ion-icon name="logo-facebook" />
       </span> Facebook
     </a>
-     <a className="btn" href="https://t.me/LutfiHamka" style={{color: "#f7fafc"}}>
+     <a className="btn" href="https://twitter.com/LupiDotMy" style={{color: "#f7fafc"}}>
     <span className="bnt-icon">
-        <ion-icon name="logo-telegram" />
+        <ion-icon name="logo-twitter" />
       </span> Owner
     </a>
         </div>

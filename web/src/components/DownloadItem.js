@@ -17,7 +17,7 @@ function DownloadItem({ torrent }) {
     <div className="card" style={{ opacity: stopping ? 0.75 : 1 }}>
       <div className="card-header compact d-flex space-between">
         <h3 style={{ lineBreak: "anywhere", marginRight: "8px" }}>{torrent.name}</h3>
-        <div className="text-400 text-primary">{torrent.done ? "Done" : torrent.redableTimeRemaining}</div>
+        <div className="text-400 text-primary">{torrent.done ? "Done (Uploading..)" : torrent.redableTimeRemaining}</div>
       </div>
       {torrent.progress !== 100 && (
         <div
